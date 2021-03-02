@@ -177,7 +177,7 @@ code.panel-header {
 .toc-item {
     position: relative;
     display: block;
-    padding: 4px 10px;
+    padding: 3px 8px;
     color: #555;
 }
 
@@ -187,18 +187,18 @@ code.panel-header {
 }
 
 a.toc-section, a.toc-subsection {
-    padding-left: 20px;
+    padding-left: 18px;
     border-left: 2px solid;
-    margin-left: 11px;
+    margin-left: 9px;
 }
 
 a.toc-subsection {
-    padding-left: 40px;
+    padding-left: 36px;
 }
 a.toc-subsection::before {
     content:"";
     position: absolute;
-    left: 20px;
+    left: 18px;
     top:0px;
     bottom:0px;
     border-left:1px solid;
