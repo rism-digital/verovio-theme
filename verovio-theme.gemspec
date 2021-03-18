@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "verovio-theme"
-  spec.version       = "0.1.8"
+  spec.version       = "0.1.9"
   spec.authors       = ["Laurent Pugin", "Andrew Hankinson"]
   spec.email         = ["laurent.pugin@rism.digital", "andrew.hankinson@rism.digital"]
 
