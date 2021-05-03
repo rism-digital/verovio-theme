@@ -15,37 +15,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li {% if page.active == "home" %}class="active"{% endif %}>
-                    <a href="https://www.verovio.org/index.xhtml">Homepage</a>
+                    <a href="{{ site.baseurl }}/index.xhtml">Homepage</a>
                 </li>
-                <li {% if page.active == "book" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/index.html">Reference book</a>
+                <li>
+                    <a href="https://book.verovio.org/">Reference book</a>
                 </li>
-                <li {% if page.active == "how" %}class="active"{% endif %}>
-                    <a href="https://www.verovio.org/test-suite.xhtml">Test suite</a>
+                <li {% if page.active == "tools" %}class="active"{% endif %}>
+                    <a href="{{ site.baseurl }}/musicxml.html">Online tools</a>
                 </li>
-                <!--
-                <li {% if page.active == "tutorial" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/tutorial.xhtml">Tutorial</a>
-                </li>
-                <li {% if page.active == "mei-viewer" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/mei-viewer.xhtml">MEI Viewer</a>
-                </li>
-                <li {% if page.active == "app" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/app.html">Verovio App</a>
-                </li>
-                <li {% if page.active == "other-formats" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/musicxml.html">Other formats</a>
-                </li>
-                -->
-                <!--
-                <li class="dropdown {% if page.active == "pae-editor" %}active{% endif %}">
-                    <a href="/" class="dropdown-toggle" data-toggle="dropdown">Plaine &amp; Easie<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                          <li><a href="{{ site.baseurl }}/pae-examples.xhtml">Examples</a></li>
-                          <li><a href="{{ site.baseurl }}/pae-editor.xhtml">Editor</a></li>
-                    </ul>
-                </li>
-                -->
               </ul>
         </div>
         <!-- /.navbar-collapse -->
