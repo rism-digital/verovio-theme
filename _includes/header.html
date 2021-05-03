@@ -15,13 +15,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li {% if page.active == "home" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/index.xhtml">Homepage</a>
+                    <a href="https://www.verovio.org/index.xhtml">Homepage</a>
                 </li>
-                <li>
+                <li {% if page.active == "book" %}class="active"{% endif %}>
                     <a href="https://book.verovio.org/">Reference book</a>
                 </li>
                 <li {% if page.active == "tools" %}class="active"{% endif %}>
-                    <a href="{{ site.baseurl }}/musicxml.html">Online tools</a>
+                    <a href="https://www.verovio.org/musicxml.html">Online tools</a>
                 </li>
               </ul>
         </div>
