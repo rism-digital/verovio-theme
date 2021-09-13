@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "verovio-theme"
-  spec.version       = "0.1.18"
-  spec.authors       = ["Laurent Pugin", "Andrew Hankinson"]
-  spec.email         = ["laurent.pugin@rism.digital", "andrew.hankinson@rism.digital"]
+  spec.version       = "0.1.19"
+  spec.authors       = ["Laurent Pugin", "Andrew Hankinson", "Klaus Rettinghaus"]
+  spec.email         = ["laurent.pugin@rism.digital", "andrew.hankinson@rism.digital", "klaus.rettinghaus@enote.com"]
 
   spec.summary       = "Shared theme for Verovio websites."
   spec.homepage      = "https://www.vervio.org"
