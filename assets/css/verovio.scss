@@ -35,6 +35,11 @@ svg:not(:root){
     height: 2px;
 }
 
+.navbar li a.image {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 .home-row-flex {
     display: flex;
     align-items: center;
